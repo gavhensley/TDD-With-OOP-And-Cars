@@ -24,5 +24,9 @@ namespace CarGarage
             Model = model;
         }
 
+        public int GetSpeed()
+        {
+            return Speed;
+        }
     }
 }

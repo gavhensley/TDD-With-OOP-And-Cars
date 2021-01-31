@@ -43,7 +43,7 @@ namespace CarGarage.Tests
 
             // Add a GetSpeed method to the Car class that returns the value of the Speed property
             // Uncomment the line below:
-            // Assert.Equal(27, car.GetSpeed());
+             Assert.Equal(27, car.GetSpeed());
         }
 
         [Fact]
