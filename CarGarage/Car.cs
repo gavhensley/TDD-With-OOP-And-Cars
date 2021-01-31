@@ -18,6 +18,11 @@ namespace CarGarage
         {
             Make = make;
         }
+        
+        public void SetModel(string model)
+        {
+            Model = model;
+        }
 
     }
 }

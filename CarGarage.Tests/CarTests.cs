@@ -31,7 +31,7 @@ namespace CarGarage.Tests
 
             // Add a SetModel method to the Car class that assigns the Model property to the value passed into the method
             // Uncomment the line below:
-            // car.SetModel("Accord");
+            car.SetModel("Accord");
 
             Assert.Equal("Accord", car.Model);
         }
