@@ -12,5 +12,12 @@ namespace CarGarage
         public int FuelLevel { get; set; }
         public bool AutoBrakeActive { get; set; }
 
+        //Methods
+
+        public void SetMake(string make)
+        {
+            Make = make;
+        }
+
     }
 }

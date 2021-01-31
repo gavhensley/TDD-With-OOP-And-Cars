@@ -19,7 +19,7 @@ namespace CarGarage.Tests
 
             // Add a SetMake method to the Car class that assigns the Make property to the value passed into the method
             // Uncomment the line below:
-            // car.SetMake("Honda");
+             car.SetMake("Honda");
 
             Assert.Equal("Honda", car.Make);
         }
