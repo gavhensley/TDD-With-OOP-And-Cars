@@ -101,7 +101,7 @@ namespace CarGarage.Tests
 
             // Add a Brake method to the Car class that decreases Speed by 7 mph
             // Uncomment the line below:
-            // car.Brake();
+            car.Brake();
 
             Assert.Equal(3, car.Speed);
         }

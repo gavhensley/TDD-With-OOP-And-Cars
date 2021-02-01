@@ -41,5 +41,10 @@ namespace CarGarage
             else if (Make == "Ferrari") { Speed += 20; }
             else { Speed += 10; }
         }
+
+        public void Brake()
+        {
+            Speed -= 7;
+        }
     }
 }
