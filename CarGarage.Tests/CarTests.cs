@@ -113,7 +113,7 @@ namespace CarGarage.Tests
 
             // Modify the Brake method so that the car's Speed can never go below 0 mph
             // Uncomment the line below:
-            // car.Brake();
+            car.Brake();
 
             Assert.Equal(0, car.Speed);
         }

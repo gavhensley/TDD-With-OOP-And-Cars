@@ -44,7 +44,15 @@ namespace CarGarage
 
         public void Brake()
         {
-            Speed -= 7;
+            if (Speed > 6)
+            {
+                Speed -= 7;
+            }
+            else if (Speed >= 0 || Speed <= 6)
+            {
+                Speed = 0;
+            }
+            
         }
     }
 }
