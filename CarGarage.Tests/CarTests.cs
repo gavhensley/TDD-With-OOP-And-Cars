@@ -89,7 +89,7 @@ namespace CarGarage.Tests
             // Modify the Accelerate method so that the car's Speed increases by 20mph, but only if the
             // Make is "Ferrari"
             // Uncomment the line below:
-            // car.Accelerate();
+            car.Accelerate();
 
             Assert.Equal(20, car.Speed);
         }
