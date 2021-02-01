@@ -126,7 +126,7 @@ namespace CarGarage.Tests
 
             // Modify the Brake method so that the car's Speed is decreased by half if AutoBrakeActive property is true
             // Uncomment the line below:
-            // car.Brake();
+            car.Brake();
 
             Assert.Equal(25, car.Speed);
         }
