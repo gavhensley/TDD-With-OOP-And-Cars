@@ -37,7 +37,10 @@ namespace CarGarage
 
         public void Accelerate()
         {
-            Speed += 10;
+            if (Speed >= 100)
+            { Speed += 0; }
+            else { Speed += 10; }
+            
         }
     }
 }
