@@ -28,5 +28,16 @@ namespace CarGarage
         {
             return Speed;
         }
+        
+        public bool IsSpeeding()
+        {
+            if (Speed > 70) { return true; }
+            else { return false; }
+        }
+
+        public void Accelerate()
+        {
+            Speed += 10;
+        }
     }
 }

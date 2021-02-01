@@ -53,7 +53,7 @@ namespace CarGarage.Tests
 
             // Add an IsSpeeding method to the Car class that returns true if the Speed property is greater than 70
             // Uncomment the line below:
-            // Assert.True(car.IsSpeeding());
+            Assert.True(car.IsSpeeding());
         }
 
         [Fact]
